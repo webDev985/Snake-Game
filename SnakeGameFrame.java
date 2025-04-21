@@ -4,7 +4,7 @@ public class SnakeGameFrame extends JFrame {
 
     public SnakeGameFrame() {
         add(new SimpleSnakeGame());
-        setResizable(false);
+        setResizable(true);
         pack();
 
         setTitle("Game of Snakes");
