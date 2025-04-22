@@ -8,7 +8,7 @@ public class SnakeGameFrame extends JFrame {
         pack();
 
         setTitle("Game of Snakes");
-        setLocationRelativeTo();
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
