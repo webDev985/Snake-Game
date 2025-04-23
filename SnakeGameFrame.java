@@ -14,6 +14,6 @@ public class SnakeGameFrame extends JFrame {
 
     public static void main(String[] args) {
         JFrame ex = new SnakeGameFrame();
-        ex.setVisible(true);
+        ex.setVisible(false);
     }
 }
