@@ -52,7 +52,7 @@ public class SimpleSnakeGame extends JPanel implements ActionListener {
         dots = 3;
 
         for (int z = 0; z < dots; z++) {
-            x[z] = 50 - z * 10;
+            x[z] = 50 - z * 10; // put 10 here...
             y[z] = 50;
         }
 
