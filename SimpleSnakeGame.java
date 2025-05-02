@@ -18,7 +18,7 @@ public class SimpleSnakeGame extends JPanel implements ActionListener {
     private final int B_HEIGHT = 300;
     private final int DOT_SIZE = 10;
     private final int ALL_DOTS = 9; //9--
-    private final int RAND_POS = 290; //put 29 here
+    private final int RAND_POS = 29; //put 29 here
     private final int DELAY = 100;
 
     private final int x[] = new int[ALL_DOTS];
