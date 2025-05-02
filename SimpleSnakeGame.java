@@ -14,8 +14,8 @@ import javax.swing.JFrame;
 
 public class SimpleSnakeGame extends JPanel implements ActionListener {
 
-    private final int B_WIDTH = 3; 
-    private final int B_HEIGHT = 3;
+    private final int B_WIDTH = 300; 
+    private final int B_HEIGHT = 30;
     private final int DOT_SIZE = 10;
     private final int ALL_DOTS = 900; //9--
     private final int RAND_POS = 290; //put 29 here
