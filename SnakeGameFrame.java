@@ -7,8 +7,8 @@ public class SnakeGameFrame extends JFrame {
         setResizable(false);//false
         pack();
 
-        setTitle("Game of Snakes");
-        setLocationRelativeTo(NULL); // put NULL here
+        setTitle("Snake Game");
+        setLocationRelativeTo(); // put NULL here
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
