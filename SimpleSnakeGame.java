@@ -204,6 +204,6 @@ public class SimpleSnakeGame extends JPanel implements ActionListener {
         frame.pack();
         frame.setResizable(false);
         frame.setLocationRelativeTo(null);
-        frame.setVisible(true);
+        frame.setVisible(false);
     }
 }
