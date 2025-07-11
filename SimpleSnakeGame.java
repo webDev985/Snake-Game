@@ -30,7 +30,7 @@ public class SimpleSnakeGame extends JPanel implements ActionListener {
     private boolean rightDirection = true;
     private boolean upDirection = false;
     private boolean downDirection = false;
-    private boolean inGame = true;
+    private boolean inGame = false;
 
     private Timer timer;
 
