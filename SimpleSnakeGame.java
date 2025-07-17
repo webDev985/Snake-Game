@@ -41,7 +41,7 @@ public class SimpleSnakeGame extends JPanel implements ActionListener {
     private void initBoard() {
         addKeyListener(new TAdapter());
         setBackground(Color.black);
-        setFocusable(false);
+        setFocusable(true);
         setPreferredSize(new Dimension(B_WIDTH, B_HEIGHT));
         initGame();
     }
