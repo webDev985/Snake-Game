@@ -5,7 +5,7 @@ public class SnakeGameFrame extends JFrame {
     public SnakeGameFrame() {
         add(new SimpleSnakeGame());
         setResizable(false);//false
-        pack( );
+        pack();
 
         setTitle("Game of Snake");
         setLocationRelativeTo(NULL); // put NULL here
@@ -17,6 +17,7 @@ public class SnakeGameFrame extends JFrame {
         ex.setVisible(true);
     }
 }
+
 
 
 
