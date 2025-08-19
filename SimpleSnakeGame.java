@@ -89,7 +89,7 @@ public class SimpleSnakeGame extends JPanel implements ActionListener {
     }
 
     private void gameOver(Graphics g) {
-        String msg = "Game Over";
+        String msg = "Game Finished";
         Font small = new Font("Helvetica", Font.BOLD, 30);
         FontMetrics metr = getFontMetrics(small);
 
