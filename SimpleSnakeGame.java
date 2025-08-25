@@ -195,7 +195,7 @@ public class SimpleSnakeGame extends JPanel implements ActionListener {
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("SimpleSnakeGame");
+        JFrame frame = new JFrame("Simple Snake Game");
         SimpleSnakeGame game = new SimpleSnakeGame();
         frame.add(game);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
