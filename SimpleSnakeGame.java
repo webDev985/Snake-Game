@@ -157,7 +157,7 @@ public class SimpleSnakeGame extends JPanel implements ActionListener {
         if (inGame) {
             checkApple();
             checkCollision();
-            move();
+            move( );
         }
 
         repaint();
