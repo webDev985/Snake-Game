@@ -35,7 +35,7 @@ public class SimpleSnakeGame extends JPanel implements ActionListener {
     private Timer timer;
 
     public SimpleSnakeGame() {
-        initBoard( );
+        initBoard();
     }
 
     private void initBoard() {
